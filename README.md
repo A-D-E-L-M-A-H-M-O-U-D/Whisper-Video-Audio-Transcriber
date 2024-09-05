@@ -66,6 +66,11 @@ This project allows you to convert a video file to audio, and then transcribe th
 
 - The application supports video formats: .mp4, .wmv, .mov, .mkv, .h.264 and audio formats: .mp3, .wav
 
+- If you are need running on your GPU (Graphics card), you can remove the fp16=False option to enable half-precision floating point (FP16) for faster performance on supported hardware. Simply remove this option from code :
+
+    ```result = model.transcribe(file_name) ```
+- fp16 for transcription on GPU
+- fp32 or fp16=False for transcription on cpu (processor)
 ## Available models
 
 There are five model sizes, four with English-only versions, offering speed and accuracy tradeoffs. Below are the names of the available models and their approximate memory requirements and inference speed relative to the large model; actual speed may vary depending on many factors including the available hardware.
