@@ -32,6 +32,9 @@ This project allows you to convert a video file to audio, and then transcribe th
     ```
     pip install tkinter
     ```
+    ```
+    pip install datetime
+    ```
 3. install FFmpeg or audio extraction from video files
 
 - Download FFmpeg from [here](https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-2024-09-02-git-3f9ca51015-full_build.7z)
