@@ -108,7 +108,6 @@ def main():
     # Save VTT file if requested
     if choice in ["vtt", "both"]:
         try:
-            from whisper.utils import WriteVTT
             vtt_filename = f"{base_filename}.vtt"
             print(f"Saving results as VTT file to {output_dir}/{vtt_filename}")
             vtt_writer = WriteVTT(output_dir)
