@@ -15,7 +15,7 @@ This project allows you to convert a video file to audio, and then transcribe th
 1. Clone the repository:
    ```bash
    git clone https://github.com/adel1046/Whisper-Video-Audio-Transcriber.git
-   cd Whisper-Video-Audio-Transcriber
+   ```
 2. Install the required dependencies:
 
     ```
