@@ -66,4 +66,4 @@ This project allows you to convert a video file to audio, and then transcribe th
 ## Troubleshooting
 - If you encounter any issues, ensure that your Python environment is set up correctly with the required libraries.
 
-- Make sure FFmpeg is installed for audio extraction from video files.# Whisper-Video-Audio-Transcriber
+- Make sure FFmpeg is installed for audio extraction from video files.
