@@ -70,7 +70,8 @@ def main():
     # Transcribe audio to text
     print("Starting transcription...")
     try:
-        result = model.transcribe(file_name, fp16=False)
+        result = model.transcribe(file_name, fp16=False) #If you are need running on your GPU (Graphics card), you can remove the fp16=False option for faster performance
+        print("Transcription completed.")
         print("Transcription completed.")
     except Exception as e:
         print(f"An error occurred during transcription: {e}")
