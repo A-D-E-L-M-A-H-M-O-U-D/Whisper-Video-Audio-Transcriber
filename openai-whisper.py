@@ -1,7 +1,7 @@
 import whisper
 import warnings
 from whisper.utils import WriteSRT, WriteVTT
-from tkinter import filedialog, Tk
+from tkinter import filedialog
 import moviepy.editor
 from datetime import datetime
 import os
@@ -31,10 +31,6 @@ def video_to_audio(video_name):
         return None
 
 def main():
-    # Initialize Tkinter root window (hidden)
-    root = Tk()
-    root.withdraw()
-
     # Ask user to select a file
     file_name = filedialog.askopenfilename(
         title="Select a file",
