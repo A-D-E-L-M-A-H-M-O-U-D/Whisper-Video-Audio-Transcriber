@@ -44,7 +44,8 @@ def main():
     # Check if the selected file is a video or audio
     file_extension = os.path.splitext(file_name)[1].lower()
     if file_extension in [".mp4", ".wmv", ".mov", ".mkv", ".h.264"]:
-
+        file_name = video_to_audio(file_name)
+        
     elif file_extension in [".mp3", ".wav"]:
         print(f"File: {file_name}")
         print("Selected audio file.")
