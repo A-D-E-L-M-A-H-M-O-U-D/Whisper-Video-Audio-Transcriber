@@ -37,7 +37,7 @@ This project allows you to convert a video file to audio, and then transcribe th
     ```
 3. install FFmpeg for audio extraction from video files
 
-- Download FFmpeg from [here](https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-2024-09-02-git-3f9ca51015-full_build.7z)
+- Download FFmpeg from [here](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z) for windows
 
 - Extract all ffmpeg folder in your C drive (`C:\`)
 
