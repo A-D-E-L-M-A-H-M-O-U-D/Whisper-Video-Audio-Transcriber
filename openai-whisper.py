@@ -59,7 +59,7 @@ def main():
 
     # Load the model
     print("Loading model...")
-    model = whisper.load_model("tiny")
+    model = whisper.load_model("base")
     print("Model loaded successfully.")
 
     # Transcribe audio to text
