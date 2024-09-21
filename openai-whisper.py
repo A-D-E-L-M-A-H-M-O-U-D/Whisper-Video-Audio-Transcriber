@@ -34,7 +34,7 @@ def main():
     # Ask user to select a file
     file_name = filedialog.askopenfilename(
         title="Select a file",
-        filetypes=[("Video Files", "*.mp4;*.wmv;*.mov;*.mkv;*.H.264;*.mp3;*.wav")]
+        filetypes=[("Select Files", "*.mp4;*.wmv;*.mov;*.mkv;*.H.264;*.mp3;*.wav")]
     )
     
     if not file_name:
